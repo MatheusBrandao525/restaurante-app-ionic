@@ -18,6 +18,13 @@ const routes: Routes = [
     loadChildren: () =>
       import('./screens/detail/detail.module').then((m) => m.DetailPageModule),
   },
+  {
+    path: 'categorias/:id',
+    loadChildren: () =>
+      import('./screens/categorias/categorias.module').then(
+        (m) => m.CategoriasPageModule
+      ),
+  },
 ];
 
 @NgModule({

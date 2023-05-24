@@ -3,6 +3,7 @@ import { Router } from '@angular/router';
 import { Category } from 'src/app/models/category.model';
 import { Food } from 'src/app/models/food.model';
 import { FoodService } from 'src/app/services/food.service';
+import { CategoriaService } from 'src/app/services/categoria.service';
 
 @Component({
   selector: 'app-listing',
@@ -13,55 +14,22 @@ export class ListingPage implements OnInit {
   categories: Category[] = [];
   foods: Food[] = [];
 
-  constructor(private foodService: FoodService, private router: Router) {}
+  constructor(
+    private categoriaService: CategoriaService,
+    private foodService: FoodService,
+    private router: Router
+  ) {}
 
   ngOnInit() {
-    this.getCategories();
+    this.categories = this.categoriaService.getCategory();
     this.foods = this.foodService.getFoods();
-  }
-
-  getCategories() {
-    this.categories = [
-      {
-        id: 1,
-        label: 'all',
-        image: 'assets/img/all.jpg',
-        active: true,
-      },
-      {
-        id: 2,
-        label: 'lanches',
-        image: 'assets/img/lanches.jpg',
-        active: false,
-      },
-      {
-        id: 3,
-        label: 'pratos de entrada',
-        image: 'assets/img/prato-entrada.jpg',
-        active: false,
-      },
-      {
-        id: 4,
-        label: 'pratos de refeição',
-        image: 'assets/img/prato-refeicao.jpg',
-        active: false,
-      },
-      {
-        id: 5,
-        label: 'sobremesas',
-        image: 'assets/img/sobremesas.jpg',
-        active: false,
-      },
-      {
-        id: 6,
-        label: 'bebidas',
-        image: 'assets/img/bebida.jpg',
-        active: false,
-      },
-    ];
   }
 
   goToDetailPage(id: number) {
     this.router.navigate(['detail', id]);
+  }
+
+  goToCategoriaPage(id: number) {
+    this.router.navigate(['categorias', id]);
   }
 }

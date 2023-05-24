@@ -3,18 +3,8 @@
   <div class="header">
     <h1>BOM SABOR</h1>
     <div class="avatar">
-      <ion-img src="assets/img/avatar"></ion-img>
+      <ion-img src="assets/img/avatar.jpg"></ion-img>
     </div>
-  </div>
-  <!-- Searchbar -->
-  <app-searchbar></app-searchbar>
-
-  <!-- Category -->
-  <div class="categories">
-    <app-category-item
-      *ngFor="let item of categories"
-      [item]="item"
-    ></app-category-item>
   </div>
 
   <!-- Prato do dia -->
@@ -25,5 +15,14 @@
       [item]="food"
       (clicked)="goToDetailPage(food.id)"
     ></app-food-card>
+  </div>
+
+  <!-- Category -->
+  <div class="categories">
+    <app-category-item
+      *ngFor="let categoria of categories"
+      [item]="categoria"
+      (clicked)="goToCategoriaPage(categoria.id)"
+    ></app-category-item>
   </div>
 </ion-content>

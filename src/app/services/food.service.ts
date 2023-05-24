@@ -11,47 +11,7 @@ export class FoodService {
         id: 1,
         title: 'Prato feito',
         price: 20,
-        image: 'assets/img/prato-feito.jpg',
-        description:
-          'uma breve descrição do produto que sera exibido ao cliente',
-      },
-      {
-        id: 2,
-        title: 'Batata frita',
-        price: 10,
-        image: 'assets/img/prato-feito.jpg',
-        description:
-          'uma breve descrição do produto que sera exibido ao cliente',
-      },
-      {
-        id: 3,
-        title: 'X-tudo',
-        price: 25,
-        image: 'assets/img/prato-feito.jpg',
-        description:
-          'uma breve descrição do produto que sera exibido ao cliente',
-      },
-      {
-        id: 4,
-        title: 'X-salada',
-        price: 25,
-        image: 'assets/img/prato-feito.jpg',
-        description:
-          'uma breve descrição do produto que sera exibido ao cliente',
-      },
-      {
-        id: 5,
-        title: 'X-bacon',
-        price: 28,
-        image: 'assets/img/prato-feito.jpg',
-        description:
-          'uma breve descrição do produto que sera exibido ao cliente',
-      },
-      {
-        id: 6,
-        title: 'X-familia',
-        price: 50,
-        image: 'assets/img/prato-feito.jpg',
+        image: 'assets/img/prato-do-dia.jpeg',
         description:
           'uma breve descrição do produto que sera exibido ao cliente',
       },

@@ -1,5 +1,5 @@
 import { Category } from './../../models/category.model';
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-category-item',
@@ -8,4 +8,6 @@ import { Component, Input } from '@angular/core';
 })
 export class CategoryItemComponent {
   @Input() item!: Category;
+
+  @Output() clicked = new EventEmitter();
 }

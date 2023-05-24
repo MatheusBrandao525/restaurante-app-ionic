@@ -61,6 +61,20 @@ ion-content {
         align-items: center;
         margin-bottom: 3rem;
       }
+
+      .about {
+        margin-bottom: 2.5rem;
+
+        h1 {
+          font-weight: 600;
+        }
+
+        p {
+          font-size: 1.1rem;
+          line-height: 1.6;
+          color: #b9b9b9;
+        }
+      }
     }
   }
 }

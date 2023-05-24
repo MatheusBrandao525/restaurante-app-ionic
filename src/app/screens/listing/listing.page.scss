@@ -10,7 +10,7 @@ ion-content {
     margin-top: 3rem;
 
     h1 {
-      font-size: 3rem;
+      font-size: 1.8rem;
       font-weight: 600;
       color: #515151;
       margin: 0;
@@ -27,8 +27,8 @@ ion-content {
       overflow: hidden;
 
       ion-img {
-        width: 90%;
-        height: 90%;
+        width: 100%;
+        height: 100%;
       }
     }
   }
@@ -48,8 +48,9 @@ ion-content {
   }
 
   .prato-do-dia {
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 1rem;
   }
 }

@@ -4,24 +4,28 @@
   align-items: center;
   text-align: center;
 
+
   .image-card {
     background-color: #f3f3f3;
     margin-bottom: 0.5rem;
+    border-radius: 2rem !important;
 
     ion-img {
       width: 100%;
       height: 100%;
+    border-radius: 2rem !important;
+
     }
   }
 
   p {
-    color: #c7c7c7;
+    color: #f2ce00;
   }
 }
 
 .wrapper .active {
   .image-card {
-    background-color: #6b45bc;
+    background-color: #f2ce00;
   }
 
   p {

@@ -10,8 +10,8 @@ export class FoodService {
       {
         id: 1,
         title: 'Prato do dia',
-        price: 20,
-        image: 'assets/img/prato-do-dia.jpeg',
+        price: 59.99,
+        image: 'assets/img/prato-do-dia.jpg',
         description:
           'uma breve descrição do produto que sera exibido ao cliente',
       },

@@ -10,7 +10,7 @@ export class CategoriaService {
       {
         id: 1,
         label: 'lanches',
-        image: 'assets/img/lanches.jpg',
+        image: 'assets/img/lanches.png',
         active: false,
       },
       {
@@ -22,13 +22,13 @@ export class CategoriaService {
       {
         id: 3,
         label: 'pratos de refeição',
-        image: 'assets/img/refeicao.jpg',
+        image: 'assets/img/refeicao.png',
         active: false,
       },
       {
         id: 4,
         label: 'sobremesas',
-        image: 'assets/img/sobremesas.jpg',
+        image: 'assets/img/sobremesa.jpg',
         active: false,
       },
       {

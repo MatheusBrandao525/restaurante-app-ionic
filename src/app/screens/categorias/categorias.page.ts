@@ -41,7 +41,4 @@ export class CategoriasPage implements OnInit {
     this.isModalOpen = true;
   }
 
-  /*   setOpen(isOpen: boolean) {
-    this.isModalOpen = isOpen;
-  } */
 }

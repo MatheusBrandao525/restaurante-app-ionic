@@ -1,16 +1,18 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar style="background: #f2ce00;">
     <ion-title>{{category}}</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <app-food-card
+  <div class="categoria-item">
+  <app-food-card 
     *ngFor="let product of products"
     [item]="product"
     (click)="selectProduct(product)"
-  ></app-food-card>
 
+  ></app-food-card>
+</div>
   <ion-modal [isOpen]="isModalOpen">
     <ng-template>
       <ion-header>

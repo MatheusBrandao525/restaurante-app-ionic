@@ -11,9 +11,9 @@
   <h1 class="list-header">Prato do dia</h1>
   <div class="prato-do-dia">
     <app-food-card
+      id="open-modal"
       *ngFor="let food of foods"
       [item]="food"
-      (clicked)="goToDetailPage(food.id)"
     ></app-food-card>
   </div>
 
@@ -25,4 +25,58 @@
       (clicked)="goToCategoriaPage(categoria.id)"
     ></app-category-item>
   </div>
+
+  <ion-modal #modal trigger="open-modal">
+    <ng-template>
+      <ion-content>
+        <ion-toolbar>
+          <ion-title>Detalhes</ion-title>
+          <ion-buttons slot="end">
+            <ion-button color="info" (click)="modal.dismiss()"
+              >Fechar</ion-button
+            >
+          </ion-buttons>
+        </ion-toolbar>
+        <h4 style="padding-left: 1rem">O prato do dia acompanha</h4>
+        <ion-list>
+          <ion-item>
+            <ion-avatar slot="start">
+              <ion-img src="../../../assets/img/prato-de-entrada.jpg"></ion-img>
+            </ion-avatar>
+            <ion-label>
+              <h2>Um prato de entrada</h2>
+              <p>Peixe e batata frita.</p>
+            </ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-avatar slot="start">
+              <ion-img src="../../../assets/img/prato-do-dia.jpeg"></ion-img>
+            </ion-avatar>
+            <ion-label>
+              <h2>Uma refeição</h2>
+              <p>Arroz, feijão, carne, salada, batata frita.</p>
+            </ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-avatar slot="start">
+              <ion-img src="../../../assets/img/sorvete-morango.jpg"></ion-img>
+            </ion-avatar>
+            <ion-label>
+              <h2>Uma sobremesa</h2>
+              <p>Sorvete de morango</p>
+            </ion-label>
+          </ion-item>
+          <ion-item>
+            <!--             <ion-avatar slot="start">
+              <ion-img src="https://i.pravatar.cc/300?u=e"></ion-img>
+            </ion-avatar> -->
+            <ion-label>
+              <h2>Valor promocional</h2>
+              <p>R$ 50,00</p>
+            </ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-content>
+    </ng-template>
+  </ion-modal>
 </ion-content>

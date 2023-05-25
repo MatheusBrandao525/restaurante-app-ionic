@@ -9,21 +9,16 @@ export class FoodService {
     return [
       {
         id: 1,
-        title: 'Prato feito',
+        title: 'Prato do dia',
         price: 20,
         image: 'assets/img/prato-do-dia.jpeg',
         description:
           'uma breve descrição do produto que sera exibido ao cliente',
-        category: 4
       },
     ];
   }
 
   getFood(id: number): Food | undefined {
     return this.getFoods().find((food) => food.id === id);
-  }
-
-  getCategory(category: number): Food[] | undefined {
-    return this.getFoods().filter((food) => food.category === category);
   }
 }

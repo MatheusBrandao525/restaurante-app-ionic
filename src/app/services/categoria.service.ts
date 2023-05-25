@@ -9,36 +9,30 @@ export class CategoriaService {
     return [
       {
         id: 1,
-        label: 'all',
-        image: 'assets/img/all.jpg',
-        active: true,
-      },
-      {
-        id: 2,
         label: 'lanches',
         image: 'assets/img/lanches.jpg',
         active: false,
       },
       {
-        id: 3,
+        id: 2,
         label: 'pratos de entrada',
         image: 'assets/img/entrada.jpg',
         active: false,
       },
       {
-        id: 4,
+        id: 3,
         label: 'pratos de refeição',
         image: 'assets/img/refeicao.jpg',
         active: false,
       },
       {
-        id: 5,
+        id: 4,
         label: 'sobremesas',
         image: 'assets/img/sobremesas.jpg',
         active: false,
       },
       {
-        id: 6,
+        id: 5,
         label: 'bebidas',
         image: 'assets/img/bebidas.jpg',
         active: false,

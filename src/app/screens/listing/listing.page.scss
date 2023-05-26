@@ -1,6 +1,4 @@
 ion-content {
-  --paddind-start: 2rem;
-  --padding-end: 2rem;
 
   .header {
     display: flex;
@@ -13,7 +11,7 @@ ion-content {
       
       font-size: 1.8rem;
       font-weight: 600;
-      color: #f2ce00;
+      color: #e68a2e;
       margin: 0;
     }
 
@@ -21,7 +19,7 @@ ion-content {
 
   .categories {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 1rem;
     padding: 0 2%;
   }
@@ -30,13 +28,15 @@ ion-content {
 
   .list-header {
     display: flex;
+    height: 100px;
     justify-content: center;
     align-items: center;
     font-weight: 700;
     color: #000000;
     font-size: 1.8rem;
-    margin-bottom: 1.6rem;
-    margin-top: 2.5rem;
+    margin-bottom: 0 !important;
+    border-radius: 2.5rem 2.5rem 0 0;
+    background-color: #e68a2e;
   }
 
   .prato-do-dia {

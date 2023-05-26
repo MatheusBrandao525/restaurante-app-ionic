@@ -9,227 +9,227 @@ export class ProductService {
     return [
       {
         id: 1,
-        title: 'X-tudo',
-        price: 29.99,
-        image: 'assets/img/x-tudo.jpg',
-        description:
-          ' Curabitur risus mauris, interdum vel nisl sed, tempus viverra elit. Integer gravida, diam quis consequat luctus, nisi purus luctus velit, sed porttitor ipsum nunc ut nisi. Nullam turpis mi, lobortis ac mollis eu, tristique vel nisl. Suspendisse potenti. Phasellus pellentesque lorem lectus, vitae tincidunt risus elementum a. Nunc ornare elit nec lacinia vulputate. Sed quis elit et nulla viverra facilisis.',
-        category: 1,
-      },
-      {
-        id: 1,
-        title: 'Batata frita',
-        price: 18.99,
-        image: 'assets/img/batata-frita.jpg',
-        description:
-          ' Curabitur risus mauris, interdum vel nisl sed, tempus viverra elit. Integer gravida, diam quis consequat luctus, nisi purus luctus velit, sed porttitor ipsum nunc ut nisi. Nullam turpis mi, lobortis ac mollis eu, tristique vel nisl. Suspendisse potenti. Phasellus pellentesque lorem lectus, vitae tincidunt risus elementum a. Nunc ornare elit nec lacinia vulputate. Sed quis elit et nulla viverra facilisis.',
-        category: 1,
-      },
-      {
-        id: 1,
-        title: 'pizza',
-        price: 38.99,
-        image: 'assets/img/pizza.jpg',
-        description:
-          ' Curabitur risus mauris, interdum vel nisl sed, tempus viverra elit. Integer gravida, diam quis consequat luctus, nisi purus luctus velit, sed porttitor ipsum nunc ut nisi. Nullam turpis mi, lobortis ac mollis eu, tristique vel nisl. Suspendisse potenti. Phasellus pellentesque lorem lectus, vitae tincidunt risus elementum a. Nunc ornare elit nec lacinia vulputate. Sed quis elit et nulla viverra facilisis.',
-        category: 1,
-      },
-      {
-        id: 1,
-        title: 'Tapioca',
-        price: 9.89,
-        image: 'assets/img/tapioca.jpg',
-        description:
-          ' Curabitur risus mauris, interdum vel nisl sed, tempus viverra elit. Integer gravida, diam quis consequat luctus, nisi purus luctus velit, sed porttitor ipsum nunc ut nisi. Nullam turpis mi, lobortis ac mollis eu, tristique vel nisl. Suspendisse potenti. Phasellus pellentesque lorem lectus, vitae tincidunt risus elementum a. Nunc ornare elit nec lacinia vulputate. Sed quis elit et nulla viverra facilisis.',
-        category: 1,
-      },
-      {
-        id: 1,
-        title: 'Quibe',
-        price: 12,
-        image: 'assets/img/quibe.jpg',
-        description:
-          ' Curabitur risus mauris, interdum vel nisl sed, tempus viverra elit. Integer gravida, diam quis consequat luctus, nisi purus luctus velit, sed porttitor ipsum nunc ut nisi. Nullam turpis mi, lobortis ac mollis eu, tristique vel nisl. Suspendisse potenti. Phasellus pellentesque lorem lectus, vitae tincidunt risus elementum a. Nunc ornare elit nec lacinia vulputate. Sed quis elit et nulla viverra facilisis.',
-        category: 1,
-      },
-      {
-        id: 1,
-        title: 'Salada de ovos',
+        title: 'Baozi',
         price: 15,
-        image: 'assets/img/salada-ovos.jpg',
+        image: 'assets/img/baozi-lanche.jpg',
         description:
-          ' Curabitur risus mauris, interdum vel nisl sed, tempus viverra elit. Integer gravida, diam quis consequat luctus, nisi purus luctus velit, sed porttitor ipsum nunc ut nisi. Nullam turpis mi, lobortis ac mollis eu, tristique vel nisl. Suspendisse potenti. Phasellus pellentesque lorem lectus, vitae tincidunt risus elementum a. Nunc ornare elit nec lacinia vulputate. Sed quis elit et nulla viverra facilisis.',
-        category: 2,
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius condimentum mi quis aliquam. Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
+        category: 1,
       },
       {
         id: 1,
-        title: 'Salada de frutas',
+        title: 'Char Siu Bao',
         price: 15,
-        image: 'assets/img/frutas.jpg',
+        image: 'assets/img/char-lanche.jpg',
         description:
-          ' Curabitur risus mauris, interdum vel nisl sed, tempus viverra elit. Integer gravida, diam quis consequat luctus, nisi purus luctus velit, sed porttitor ipsum nunc ut nisi. Nullam turpis mi, lobortis ac mollis eu, tristique vel nisl. Suspendisse potenti. Phasellus pellentesque lorem lectus, vitae tincidunt risus elementum a. Nunc ornare elit nec lacinia vulputate. Sed quis elit et nulla viverra facilisis.',
-        category: 2,
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius condimentum mi quis aliquam. Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
+        category: 1,
       },
       {
         id: 1,
-        title: 'Peixe frito',
+        title: 'Bolinho no Vapor (Dim Sum)',
         price: 15,
-        image: 'assets/img/peixe-frito.jpg',
+        image: 'assets/img/dinsum-lanche.jpg',
         description:
-          ' Curabitur risus mauris, interdum vel nisl sed, tempus viverra elit. Integer gravida, diam quis consequat luctus, nisi purus luctus velit, sed porttitor ipsum nunc ut nisi. Nullam turpis mi, lobortis ac mollis eu, tristique vel nisl. Suspendisse potenti. Phasellus pellentesque lorem lectus, vitae tincidunt risus elementum a. Nunc ornare elit nec lacinia vulputate. Sed quis elit et nulla viverra facilisis.',
-        category: 2,
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius condimentum mi quis aliquam. Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
+        category: 1,
       },
       {
         id: 1,
-        title: 'Farofa',
-        price: 20,
-        image: 'assets/img/farofa.jpg',
-        description:
-          ' Curabitur risus mauris, interdum vel nisl sed, tempus viverra elit. Integer gravida, diam quis consequat luctus, nisi purus luctus velit, sed porttitor ipsum nunc ut nisi. Nullam turpis mi, lobortis ac mollis eu, tristique vel nisl. Suspendisse potenti. Phasellus pellentesque lorem lectus, vitae tincidunt risus elementum a. Nunc ornare elit nec lacinia vulputate. Sed quis elit et nulla viverra facilisis.',
-        category: 2,
-      },
-      {
-        id: 1,
-        title: 'Açai',
+        title: 'Guioza (Dumplings)',
         price: 15,
-        image: 'assets/img/acai.jpg',
+        image: 'assets/img/guioza-lanche.jpg',
         description:
-          ' Curabitur risus mauris, interdum vel nisl sed, tempus viverra elit. Integer gravida, diam quis consequat luctus, nisi purus luctus velit, sed porttitor ipsum nunc ut nisi. Nullam turpis mi, lobortis ac mollis eu, tristique vel nisl. Suspendisse potenti. Phasellus pellentesque lorem lectus, vitae tincidunt risus elementum a. Nunc ornare elit nec lacinia vulputate. Sed quis elit et nulla viverra facilisis.',
-        category: 2,
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius condimentum mi quis aliquam. Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
+        category: 1,
       },
       {
         id: 1,
-        title: 'Prato feito feijoada',
-        price: 28.99,
-        image: 'assets/img/feijoada.jpg',
+        title: 'Rolinho Primavera de Vegetais',
+        price: 15,
+        image: 'assets/img/rolinho-primavera.jpg',
         description:
-          ' Curabitur risus mauris, interdum vel nisl sed, tempus viverra elit. Integer gravida, diam quis consequat luctus, nisi purus luctus velit, sed porttitor ipsum nunc ut nisi. Nullam turpis mi, lobortis ac mollis eu, tristique vel nisl. Suspendisse potenti. Phasellus pellentesque lorem lectus, vitae tincidunt risus elementum a. Nunc ornare elit nec lacinia vulputate. Sed quis elit et nulla viverra facilisis.',
-        category: 3,
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius condimentum mi quis aliquam. Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
+        category: 1,
       },
       {
         id: 1,
-        title: 'Prato feito churrasco',
+        title: 'Jianbing',
         price: 35,
-        image: 'assets/img/churrasco.jpg',
+        image: 'assets/img/jianbing-entrada.jpg',
         description:
-          ' Curabitur risus mauris, interdum vel nisl sed, tempus viverra elit. Integer gravida, diam quis consequat luctus, nisi purus luctus velit, sed porttitor ipsum nunc ut nisi. Nullam turpis mi, lobortis ac mollis eu, tristique vel nisl. Suspendisse potenti. Phasellus pellentesque lorem lectus, vitae tincidunt risus elementum a. Nunc ornare elit nec lacinia vulputate. Sed quis elit et nulla viverra facilisis.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius condimentum mi quis aliquam. Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
+        category: 2,
+      },
+      {
+        id: 1,
+        title: 'Xiao Long Bao',
+        price: 35,
+        image: 'assets/img/xiao-entrada.jpg',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius condimentum mi quis aliquam. Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
+        category: 2,
+      },
+      {
+        id: 1,
+        title: 'Pai Huang Gua',
+        price: 35,
+        image: 'assets/img/paihuang-entrada.jpg',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius condimentum mi quis aliquam. Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
+        category: 2,
+      },
+      {
+        id: 1,
+        title: 'Cong You Bing',
+        price: 35,
+        image: 'assets/img/cong-entrada.jpg',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius condimentum mi quis aliquam. Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
+        category: 2,
+      },
+      {
+        id: 1,
+        title: 'Dan Dan Mian',
+        price: 35,
+        image: 'assets/img/dandan-entrada.jpg',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius condimentum mi quis aliquam. Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
+        category: 2,
+      },
+      {
+        id: 1,
+        title: 'Mapo Tofu',
+        price: 40,
+        image: 'assets/img/tofu-refeicao.webp',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius condimentum mi quis aliquam. Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
         category: 3,
       },
       {
         id: 1,
-        title: 'Prato feito sushi',
+        title: 'Frango Kung Pao',
+        price: 45,
+        image: 'assets/img/frongo-refeicao.jpg',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius condimentum mi quis aliquam. Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
+        category: 3,
+      },
+      {
+        id: 1,
+        title: 'Char Siu',
+        price: 40,
+        image: 'assets/img/charsiu-refeicao.jpg',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius condimentum mi quis aliquam. Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
+        category: 3,
+      },
+      {
+        id: 1,
+        title: 'Pato à Pequim',
+        price: 40,
+        image: 'assets/img/pato-refeicao.jpg',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius condimentum mi quis aliquam. Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
+        category: 3,
+      },
+      {
+        id: 1,
+        title: 'Chow Mein',
+        price: 40,
+        image: 'assets/img/chowman-refeicao.jpg',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius condimentum mi quis aliquam. Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
+        category: 3,
+      },
+      {
+        id: 1,
+        title: 'Tangyuan',
+        price: 50,
+        image: 'assets/img/tangyuan-sobremesa.jpg',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius condimentum mi quis aliquam. Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
+        category: 4,
+      },
+      {
+        id: 1,
+        title: 'Mooncake',
+        price: 45,
+        image: 'assets/img/mooncake-sobremesa.jpg',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius condimentum mi quis aliquam. Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
+        category: 4,
+      },
+      {
+        id: 1,
+        title: 'Baobing',
+        price: 35,
+        image: 'assets/img/baobing-sobremesa.jpg',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius condimentum mi quis aliquam. Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
+        category: 4,
+      },
+      {
+        id: 1,
+        title: 'Douhua',
         price: 30,
-        image: 'assets/img/sushi.jpg',
+        image: 'assets/img/douhua-sobremesa.jpg',
         description:
-          ' Curabitur risus mauris, interdum vel nisl sed, tempus viverra elit. Integer gravida, diam quis consequat luctus, nisi purus luctus velit, sed porttitor ipsum nunc ut nisi. Nullam turpis mi, lobortis ac mollis eu, tristique vel nisl. Suspendisse potenti. Phasellus pellentesque lorem lectus, vitae tincidunt risus elementum a. Nunc ornare elit nec lacinia vulputate. Sed quis elit et nulla viverra facilisis.',
-        category: 3,
-      },
-      {
-        id: 1,
-        title: 'Prato feito strogonoff',
-        price: 18.99,
-        image: 'assets/img/strogonofe.jpg',
-        description:
-          ' Curabitur risus mauris, interdum vel nisl sed, tempus viverra elit. Integer gravida, diam quis consequat luctus, nisi purus luctus velit, sed porttitor ipsum nunc ut nisi. Nullam turpis mi, lobortis ac mollis eu, tristique vel nisl. Suspendisse potenti. Phasellus pellentesque lorem lectus, vitae tincidunt risus elementum a. Nunc ornare elit nec lacinia vulputate. Sed quis elit et nulla viverra facilisis.',
-        category: 3,
-      },
-      {
-        id: 1,
-        title: 'Prato feito salada',
-        price: 15,
-        image: 'assets/img/salada.jpg',
-        description:
-          ' Curabitur risus mauris, interdum vel nisl sed, tempus viverra elit. Integer gravida, diam quis consequat luctus, nisi purus luctus velit, sed porttitor ipsum nunc ut nisi. Nullam turpis mi, lobortis ac mollis eu, tristique vel nisl. Suspendisse potenti. Phasellus pellentesque lorem lectus, vitae tincidunt risus elementum a. Nunc ornare elit nec lacinia vulputate. Sed quis elit et nulla viverra facilisis.',
-        category: 3,
-      },
-      {
-        id: 1,
-        title: 'Pavê de chocolate',
-        price: 25,
-        image: 'assets/img/pave.jpg',
-        description:
-          ' Curabitur risus mauris, interdum vel nisl sed, tempus viverra elit. Integer gravida, diam quis consequat luctus, nisi purus luctus velit, sed porttitor ipsum nunc ut nisi. Nullam turpis mi, lobortis ac mollis eu, tristique vel nisl. Suspendisse potenti. Phasellus pellentesque lorem lectus, vitae tincidunt risus elementum a. Nunc ornare elit nec lacinia vulputate. Sed quis elit et nulla viverra facilisis.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius condimentum mi quis aliquam. Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
         category: 4,
       },
       {
         id: 1,
-        title: 'Milkshake',
-        price: 15,
-        image: 'assets/img/milkshake.jpg',
+        title: 'Osmanthus Jelly',
+        price: 40,
+        image: 'assets/img/osmanthus-sobremesa.jpg',
         description:
-          ' Curabitur risus mauris, interdum vel nisl sed, tempus viverra elit. Integer gravida, diam quis consequat luctus, nisi purus luctus velit, sed porttitor ipsum nunc ut nisi. Nullam turpis mi, lobortis ac mollis eu, tristique vel nisl. Suspendisse potenti. Phasellus pellentesque lorem lectus, vitae tincidunt risus elementum a. Nunc ornare elit nec lacinia vulputate. Sed quis elit et nulla viverra facilisis.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius condimentum mi quis aliquam. Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
         category: 4,
       },
       {
         id: 1,
-        title: 'Flã de morango',
-        price: 25,
-        image: 'assets/img/fla-morango.jpg',
-        description:
-          ' Curabitur risus mauris, interdum vel nisl sed, tempus viverra elit. Integer gravida, diam quis consequat luctus, nisi purus luctus velit, sed porttitor ipsum nunc ut nisi. Nullam turpis mi, lobortis ac mollis eu, tristique vel nisl. Suspendisse potenti. Phasellus pellentesque lorem lectus, vitae tincidunt risus elementum a. Nunc ornare elit nec lacinia vulputate. Sed quis elit et nulla viverra facilisis.',
-        category: 4,
-      },
-      {
-        id: 1,
-        title: 'Bolo de milho',
-        price: 28.99,
-        image: 'assets/img/bolo-milho.jpg',
-        description:
-          ' Curabitur risus mauris, interdum vel nisl sed, tempus viverra elit. Integer gravida, diam quis consequat luctus, nisi purus luctus velit, sed porttitor ipsum nunc ut nisi. Nullam turpis mi, lobortis ac mollis eu, tristique vel nisl. Suspendisse potenti. Phasellus pellentesque lorem lectus, vitae tincidunt risus elementum a. Nunc ornare elit nec lacinia vulputate. Sed quis elit et nulla viverra facilisis.',
-        category: 4,
-      },
-      {
-        id: 1,
-        title: 'Pudim de chocolate',
-        price: 18.99,
-        image: 'assets/img/pudim-chocolate.jpg',
-        description:
-          ' Curabitur risus mauris, interdum vel nisl sed, tempus viverra elit. Integer gravida, diam quis consequat luctus, nisi purus luctus velit, sed porttitor ipsum nunc ut nisi. Nullam turpis mi, lobortis ac mollis eu, tristique vel nisl. Suspendisse potenti. Phasellus pellentesque lorem lectus, vitae tincidunt risus elementum a. Nunc ornare elit nec lacinia vulputate. Sed quis elit et nulla viverra facilisis.',
-        category: 4,
-      },
-      {
-        id: 1,
-        title: 'Água',
-        price: 10,
-        image: 'assets/img/agua.jpg',
-        description:
-          ' Curabitur risus mauris, interdum vel nisl sed, tempus viverra elit. Integer gravida, diam quis consequat luctus, nisi purus luctus velit, sed porttitor ipsum nunc ut nisi. Nullam turpis mi, lobortis ac mollis eu, tristique vel nisl. Suspendisse potenti. Phasellus pellentesque lorem lectus, vitae tincidunt risus elementum a. Nunc ornare elit nec lacinia vulputate. Sed quis elit et nulla viverra facilisis.',
-        category: 5,
-      },
-      {
-        id: 1,
-        title: 'Limonada',
-        price: 8,
-        image: 'assets/img/limonada.jpg',
-        description:
-          ' Curabitur risus mauris, interdum vel nisl sed, tempus viverra elit. Integer gravida, diam quis consequat luctus, nisi purus luctus velit, sed porttitor ipsum nunc ut nisi. Nullam turpis mi, lobortis ac mollis eu, tristique vel nisl. Suspendisse potenti. Phasellus pellentesque lorem lectus, vitae tincidunt risus elementum a. Nunc ornare elit nec lacinia vulputate. Sed quis elit et nulla viverra facilisis.',
-        category: 5,
-      },
-      {
-        id: 1,
-        title: 'Champanhe',
-        price: 68.99,
-        image: 'assets/img/champagne.jpg',
-        description:
-          ' Curabitur risus mauris, interdum vel nisl sed, tempus viverra elit. Integer gravida, diam quis consequat luctus, nisi purus luctus velit, sed porttitor ipsum nunc ut nisi. Nullam turpis mi, lobortis ac mollis eu, tristique vel nisl. Suspendisse potenti. Phasellus pellentesque lorem lectus, vitae tincidunt risus elementum a. Nunc ornare elit nec lacinia vulputate. Sed quis elit et nulla viverra facilisis.',
-        category: 5,
-      },
-      {
-        id: 1,
-        title: 'Coca Cola',
+        title: 'Chá Oolong',
         price: 12,
-        image: 'assets/img/coca.jpg',
+        image: 'assets/img/chaoolong-bebida.jpg',
         description:
-          ' Curabitur risus mauris, interdum vel nisl sed, tempus viverra elit. Integer gravida, diam quis consequat luctus, nisi purus luctus velit, sed porttitor ipsum nunc ut nisi. Nullam turpis mi, lobortis ac mollis eu, tristique vel nisl. Suspendisse potenti. Phasellus pellentesque lorem lectus, vitae tincidunt risus elementum a. Nunc ornare elit nec lacinia vulputate. Sed quis elit et nulla viverra facilisis.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius condimentum mi quis aliquam. Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
         category: 5,
       },
       {
         id: 1,
-        title: 'Cerveja',
-        price: 15.99,
-        image: 'assets/img/cerveja.jpg',
+        title: "Chá Pu'er",
+        price: 16,
+        image: 'assets/img/chapuer-bebida.jpg',
         description:
-          ' Curabitur risus mauris, interdum vel nisl sed, tempus viverra elit. Integer gravida, diam quis consequat luctus, nisi purus luctus velit, sed porttitor ipsum nunc ut nisi. Nullam turpis mi, lobortis ac mollis eu, tristique vel nisl. Suspendisse potenti. Phasellus pellentesque lorem lectus, vitae tincidunt risus elementum a. Nunc ornare elit nec lacinia vulputate. Sed quis elit et nulla viverra facilisis.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius condimentum mi quis aliquam. Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
+        category: 5,
+      },
+      {
+        id: 1,
+        title: 'Boba Milk Tea',
+        price: 26,
+        image: 'assets/img/leite-bebida.jpg',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius condimentum mi quis aliquam. Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
+        category: 5,
+      },
+      {
+        id: 1,
+        title: 'Jujuba Tea',
+        price: 24,
+        image: 'assets/img/jujuba-bebida.png',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius condimentum mi quis aliquam. Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
+        category: 5,
+      },
+      {
+        id: 1,
+        title: 'Bebida de Inverno (Wong Lo Kat)',
+        price: 22,
+        image: 'assets/img/wong-bebida.jpg',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius condimentum mi quis aliquam. Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
         category: 5,
       },
     ];

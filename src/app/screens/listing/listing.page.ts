@@ -6,6 +6,7 @@ import { FoodService } from 'src/app/services/food.service';
 import { CategoriaService } from 'src/app/services/categoria.service';
 import { AnimationController } from '@ionic/angular';
 
+
 @Component({
   selector: 'app-listing',
   templateUrl: './listing.page.html',

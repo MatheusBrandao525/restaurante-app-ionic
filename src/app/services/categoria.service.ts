@@ -10,31 +10,31 @@ export class CategoriaService {
       {
         id: 1,
         label: 'lanches',
-        image: 'assets/img/lanches.png',
+        image: 'assets/img/lanche-cat.png',
         active: false,
       },
       {
         id: 2,
         label: 'pratos de entrada',
-        image: 'assets/img/entrada.jpg',
+        image: 'assets/img/entrada-cat.png',
         active: false,
       },
       {
         id: 3,
         label: 'pratos de refeição',
-        image: 'assets/img/refeicao.png',
+        image: 'assets/img/refeicao-cat.png',
         active: false,
       },
       {
         id: 4,
         label: 'sobremesas',
-        image: 'assets/img/sobremesa.jpg',
+        image: 'assets/img/sobremesa-cat.png',
         active: false,
       },
       {
         id: 5,
         label: 'bebidas',
-        image: 'assets/img/bebidas.jpg',
+        image: 'assets/img/bebida-cat.png',
         active: false,
       },
     ];

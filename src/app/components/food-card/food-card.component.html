@@ -1,8 +1,8 @@
 <div class="card" (click)="clicked.emit()">
   <ion-img [src]="item.image"></ion-img>
   <div class="card-content">
-    <h3 class="title">{{ item.title }}</h3>
+    <h3 class="title">{{ item.title }} <ion-icon name="bookmark" style="color: red;"></ion-icon></h3>
     <h2 class="subtitle"><sup>R$</sup>{{ item.price | number : "1.2" }}</h2>
-
+    
   </div>
 </div>

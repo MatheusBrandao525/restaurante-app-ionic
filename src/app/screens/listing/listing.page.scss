@@ -6,12 +6,11 @@ ion-content {
     align-items: center;
     margin-bottom: 1rem;
     margin-top: 3rem;
-
     h1 {
       
-      font-size: 1.8rem;
-      font-weight: 600;
-      color: #b90505;
+      font-size: 2.2rem;
+      font-weight: bold;
+      color: #c6051f;
       margin: 0;
     }
 
@@ -24,19 +23,17 @@ ion-content {
     padding: 0 2%;
   }
 
-
-
   .list-header {
     display: flex;
     height: 100px;
     justify-content: center;
     align-items: center;
     font-weight: 700;
-    color: #000000;
+    color: white;
     font-size: 1.8rem;
-    margin-bottom: 0 !important;
+    margin-bottom: 1rem !important;
     border-radius: 0;
-    background-color: #f1e500;
+    background-color: #c6051f;
   }
 
   .prato-do-dia {

@@ -9,200 +9,191 @@ export class ProductService {
     return [
       {
         id: 1,
-        title: 'Hamburguer Classico',
+        title: 'X-burguer',
+        price: 26.99,
+        image: 'assets/img/x-burguer.png',
+        description:
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+        category: 1,
+      },
+      {
+        id: 1,
+        title: 'Churrasquinho de frango',
+        price: 17.99,
+        image: 'assets/img/churrasquinho-lanche.png',
+        description:
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+        category: 1,
+      },
+      {
+        id: 1,
+        title: 'Sanduiche de picanha',
+        price: 28.99,
+        image: 'assets/img/sanduiche-lanche.png',
+        description:
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+        category: 1,
+      },
+      {
+        id: 1,
+        title: 'Cheeseburguer clássico',
+        price: 28.99,
+        image: 'assets/img/cheeseburguer.png',
+        description:
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+        category: 1,
+      },
+      {
+        id: 1,
+        title: 'Hot dog',
+        price: 20,
+        image: 'assets/img/hot-dog.png',
+        description:
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+        category: 1,
+      },
+      {
+        id: 1,
+        title: 'Coxinhas de frango',
+        price: 19.99,
+        image: 'assets/img/coxinhas.png',
+        description:
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+        category: 2,
+      },
+      {
+        id: 1,
+        title: 'Bolinho de bacalhau',
+        price: 15.99,
+        image: 'assets/img/bolinho.png',
+        description:
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+        category: 2,
+      },
+      {
+        id: 1,
+        title: 'Linguiça assada',
+        price: 22.99,
+        image: 'assets/img/linguica-assada.png',
+        description:
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+        category: 2,
+      },
+      {
+        id: 1,
+        title: 'Dadinho de tapioca',
+        price: 14.99,
+        image: 'assets/img/dadinho.png',
+        description:
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+        category: 2,
+      },
+      {
+        id: 1,
+        title: 'Torresmo crocante',
+        price: 12.99,
+        image: 'assets/img/torresmo.png',
+        description:
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+        category: 2,
+      },
+      {
+        id: 1,
+        title: 'Picanha assada',
+        price: 35.99,
+        image: 'assets/img/picanha.png',
+        description:
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+        category: 3,
+      },
+      {
+        id: 1,
+        title: 'Frango à parmegiana',
+        price: 40,
+        image: 'assets/img/frango-parmegiana.png',
+        description:
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+        category: 3,
+      },
+      {
+        id: 1,
+        title: 'Costelinha de porco',
+        price: 38.99,
+        image: 'assets/img/costelinha.png',
+        description:
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+        category: 3,
+      },
+      {
+        id: 1,
+        title: 'Peixe grelhado',
+        price: 30,
+        image: 'assets/img/peixe.png',
+        description:
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+        category: 3,
+      },
+      {
+        id: 1,
+        title: 'Feijoada completa',
+        price: 50,
+        image: 'assets/img/feijoada.png',
+        description:
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+        category: 3,
+      },
+      {
+        id: 1,
+        title: 'Pudim de leite',
+        price: 25.99,
+        image: 'assets/img/pudim.png',
+        description:
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+        category: 4,
+      },
+      {
+        id: 1,
+        title: 'Musse de chocolate',
+        price: 12.99,
+        image: 'assets/img/musse.png',
+        description:
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+        category: 4,
+      },
+      {
+        id: 1,
+        title: 'Torta de limão',
+        price: 20,
+        image: 'assets/img/torta.png',
+        description:
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+        category: 4,
+      },
+      {
+        id: 1,
+        title: 'Petir gateau',
         price: 25,
-        image: 'assets/img/hamburguer-lanche.png',
+        image: 'assets/img/peti.png',
         description:
-          'Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
-        category: 1,
-      },
-      {
-        id: 1,
-        title: 'Tostex de Qeijo',
-        price: 15,
-        image: 'assets/img/tostex-lanche.png',
-        description:
-          'Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
-        category: 1,
-      },
-      {
-        id: 1,
-        title: 'Sanduiche de Atum',
-        price: 25,
-        image: 'assets/img/atum-lanche.png',
-        description:
-          'Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
-        category: 1,
-      },
-      {
-        id: 1,
-        title: 'Burrito',
-        price: 15,
-        image: 'assets/img/burrito-lanche.png',
-        description:
-          'Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
-        category: 1,
-      },
-      {
-        id: 1,
-        title: 'Tacos',
-        price: 20,
-        image: 'assets/img/tacos-lanche.png',
-        description:
-          'Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
-        category: 1,
-      },
-      {
-        id: 1,
-        title: 'Bruschetta',
-        price: 10,
-        image: 'assets/img/bruschetta-entrada.png',
-        description:
-          'Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
-        category: 2,
-      },
-      {
-        id: 1,
-        title: 'Ceviche',
-        price: 15,
-        image: 'assets/img/ceviche-entrada.png',
-        description:
-          'Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
-        category: 2,
-      },
-      {
-        id: 1,
-        title: 'Caprese',
-        price: 15,
-        image: 'assets/img/caprese-entrada.png',
-        description:
-          'Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
-        category: 2,
-      },
-      {
-        id: 1,
-        title: 'Guacamole com chips',
-        price: 20,
-        image: 'assets/img/guaca-entrada.png',
-        description:
-          'Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
-        category: 2,
-      },
-      {
-        id: 1,
-        title: 'Tabule',
-        price: 15,
-        image: 'assets/img/tabule-entrada.png',
-        description:
-          'Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
-        category: 2,
-      },
-      {
-        id: 1,
-        title: 'Frango Assado',
-        price: 40,
-        image: 'assets/img/frango-refeicao.jpg',
-        description:
-          'Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
-        category: 3,
-      },
-      {
-        id: 1,
-        title: 'Espaguete',
-        price: 40,
-        image: 'assets/img/espaguete-refeicao.jpg',
-        description:
-          'Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
-        category: 3,
-      },
-      {
-        id: 1,
-        title: 'Salmão Grelhado',
-        price: 40,
-        image: 'assets/img/salmao-refeicao.jpg',
-        description:
-          'Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
-        category: 3,
-      },
-      {
-        id: 1,
-        title: 'Bife Grelhado',
-        price: 40,
-        image: 'assets/img/bife-refeicao.jpg',
-        description:
-          'Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
-        category: 3,
-      },
-      {
-        id: 1,
-        title: 'Risoto de Cogumelos',
-        price: 40,
-        image: 'assets/img/ridoto-refeicao.jpg',
-        description:
-          'Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
-        category: 3,
-      },
-      {
-        id: 1,
-        title: 'Brownie com Sorvete',
-        price: 20,
-        image: 'assets/img/brownie-sobremesa.jpg',
-        description:
-          'Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
         category: 4,
       },
       {
         id: 1,
-        title: 'Tiramisu Italiano',
-        price: 20,
-        image: 'assets/img/tiramisu-sobremesa.jpg',
-        description:
-          'Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
-        category: 4,
-      },
-      {
-        id: 1,
-        title: 'Frutas Grelhadas',
-        price: 20,
-        image: 'assets/img/frutas-sobremesa.jpg',
-        description:
-          'Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
-        category: 4,
-      },
-      {
-        id: 1,
-        title: 'Pudim de caramelo',
-        price: 20,
-        image: 'assets/img/pudim-sobremesa.jpg',
-        description:
-          'Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
-        category: 4,
-      },
-      {
-        id: 1,
-        title: 'Cheesecake de Morango',
-        price: 25,
-        image: 'assets/img/cheesecake-sobremesa.jpg',
-        description:
-          'Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
-        category: 4,
-      },
-      {
-        id: 1,
-        title: 'Mojito',
-        price: 12,
-        image: 'assets/img/mojito-bebida.jpg',
-        description:
-          'Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
-        category: 5,
-      },
-      {
-        id: 1,
-        title: "Smoothie de Frutas",
+        title: 'Brigadeiro',
         price: 15,
-        image: 'assets/img/smoothie-bebida.jpg',
+        image: 'assets/img/brigadeiro.png',
         description:
-          'Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+        category: 4,
+      },
+      {
+        id: 1,
+        title: "Shoop pilsen",
+        price: 18,
+        image: 'assets/img/shoop.jpg',
+        description:
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
         category: 5,
       },
       {
@@ -211,25 +202,34 @@ export class ProductService {
         price: 8,
         image: 'assets/img/limonada-bebida.jpg',
         description:
-          'Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
         category: 5,
       },
       {
         id: 1,
-        title: 'Chá gelado',
-        price: 8,
-        image: 'assets/img/cha-bebida.jpg',
-        description:
-          'Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
-        category: 5,
-      },
-      {
-        id: 1,
-        title: 'Água aromatizada',
+        title: 'Água de coco',
         price: 10,
-        image: 'assets/img/agua-bebida.jpg',
+        image: 'assets/img/agua-de-coco.jpg',
         description:
-          'Donec sagittis turpis at nulla lobortis, a laoreet nibh gravida. In mauris orci, rutrum ac augue ac, volutpat egestas arcu.',
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+        category: 5,
+      },
+      {
+        id: 1,
+        title: 'Mojito',
+        price: 20,
+        image: 'assets/img/mojito-bebida.jpg',
+        description:
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+        category: 5,
+      },
+      {
+        id: 1,
+        title: 'Suco de laranja',
+        price: 10,
+        image: 'assets/img/suco.jpg',
+        description:
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
         category: 5,
       },
     ];

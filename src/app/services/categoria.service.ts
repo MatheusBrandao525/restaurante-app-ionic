@@ -10,31 +10,31 @@ export class CategoriaService {
       {
         id: 1,
         label: 'Lanches',
-        image: 'assets/img/lanches.png',
+        image: 'assets/img/lanche.png',
         active: false,
       },
       {
         id: 2,
         label: 'Entradas',
-        image: 'assets/img/entradas.png',
+        image: 'assets/img/petisco.png',
         active: false,
       },
       {
         id: 3,
         label: 'Refeições',
-        image: 'assets/img/prato-promocao.jpg',
+        image: 'assets/img/refeicao.png',
         active: false,
       },
       {
         id: 4,
         label: 'Sobremesas',
-        image: 'assets/img/sobremesas.png',
+        image: 'assets/img/sobremesa.png',
         active: false,
       },
       {
         id: 5,
         label: 'Bebidas',
-        image: 'assets/img/bebidas.png',
+        image: 'assets/img/bebida.png',
         active: false,
       },
     ];

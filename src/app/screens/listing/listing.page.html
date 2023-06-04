@@ -1,15 +1,11 @@
-<ion-content style="padding-right: 0 !important;" color="warning">
-
+<ion-content style="padding-right: 0 !important" color="warning">
   <!-- header -->
   <div class="header">
     <h1>CHURRAS DELIVERY</h1>
   </div>
 
-
-
-
-      <!-- Category -->
-  <h2 style="text-align: center; margin-bottom: 1.5rem;">Categorias</h2>
+  <!-- Category -->
+  <h2 style="text-align: center; margin-bottom: 1.5rem">Categorias</h2>
   <div class="categories">
     <app-category-item
       *ngFor="let categoria of categories"
@@ -18,12 +14,11 @@
     ></app-category-item>
   </div>
 
-    
-    <!-- Searchbar -->
-    <app-searchbar></app-searchbar>
+  <!-- Searchbar -->
+  <app-searchbar></app-searchbar>
 
   <!-- Prato do dia -->
-  <h1 class="list-header"  color="danger">Promoção</h1>
+  <h1 class="list-header" color="danger">Promoção</h1>
   <div class="prato-do-dia">
     <app-food-card
       id="open-modal"
@@ -32,53 +27,50 @@
     ></app-food-card>
   </div>
 
-
-
-
   <ion-modal #modal trigger="open-modal">
     <ng-template>
-      <ion-content>
-        <ion-toolbar>
+      <ion-content color="warning">
+        <ion-toolbar color="danger">
           <ion-title>Detalhes da prato do dia</ion-title>
           <ion-buttons slot="end">
-            <ion-button color="info" (click)="modal.dismiss()"
+            <ion-button style="color: white" (click)="modal.dismiss()"
               >Voltar</ion-button
             >
           </ion-buttons>
         </ion-toolbar>
         <h4 style="padding-left: 1rem">O prato do dia acompanha</h4>
         <ion-list>
-          <ion-item>
-            <ion-avatar slot="start" style="width: 40%; height: 100%;">
-              <ion-img src="../../../assets/img/guaca-entrada.png"></ion-img>
+          <ion-item color="danger">
+            <ion-avatar slot="start" style="width: 40%; height: 100%">
+              <ion-img src="../../../assets/img/linguica-assada.png"></ion-img>
             </ion-avatar>
-            <ion-label style="width: 60%;">
-              <h2>Guava Mole</h2>
-              <p>Petiscos e tira gostos</p>
+            <ion-label style="width: 60%">
+              <h2>Linguiça Assada</h2>
+              <p>Uma prato de entrada.</p>
             </ion-label>
           </ion-item>
-          <ion-item>
-            <ion-avatar slot="start" style="width: 40%; height: 100%;">
-              <ion-img src="../../../assets/img/bife-refeicao.jpg"></ion-img>
+          <ion-item color="danger">
+            <ion-avatar slot="start" style="width: 40%; height: 100%">
+              <ion-img src="../../../assets/img/picanha.png"></ion-img>
             </ion-avatar>
-            <ion-label style="width: 60%;">
-              <h2>Bife Grelhado</h2>
-              <p style="width: 100%;">Descrição do prato de refeição oferecido.</p>
+            <ion-label style="width: 60%">
+              <h2>Picanha Assada</h2>
+              <p style="width: 100%">Uma refeição.</p>
             </ion-label>
           </ion-item>
-          <ion-item>
-            <ion-avatar slot="start" style="width: 40%; height: 100%;">
-              <ion-img src="../../../assets/img/cheesecake-sobremesa.jpg"></ion-img>
+          <ion-item color="danger">
+            <ion-avatar slot="start" style="width: 40%; height: 100%">
+              <ion-img src="../../../assets/img/musse.png"></ion-img>
             </ion-avatar>
-            <ion-label style="width: 60%;">
-              <h2>Cheesecake de Morango</h2>
-              <p>Uma descrição da sobremesa oferecida.</p>
+            <ion-label style="width: 60%">
+              <h2>Mousse de Chocolate</h2>
+              <p>Uma sobremesa.</p>
             </ion-label>
           </ion-item>
-          <ion-item>
+          <ion-item color="danger">
             <ion-label>
               <h2>Valor promocional</h2>
-              <p>R$ 50,00</p>
+              <p>R$ 80,00</p>
             </ion-label>
           </ion-item>
         </ion-list>

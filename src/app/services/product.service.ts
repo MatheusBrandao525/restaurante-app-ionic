@@ -189,7 +189,7 @@ export class ProductService {
       },
       {
         id: 1,
-        title: "Shoop pilsen",
+        title: 'Shoop pilsen',
         price: 18,
         image: 'assets/img/shoop.jpg',
         description:
@@ -198,27 +198,27 @@ export class ProductService {
       },
       {
         id: 1,
-        title: 'Limonada caseira',
-        price: 8,
-        image: 'assets/img/limonada-bebida.jpg',
-        description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
-        category: 5,
-      },
-      {
-        id: 1,
-        title: 'Água de coco',
+        title: 'Guarana',
         price: 10,
-        image: 'assets/img/agua-de-coco.jpg',
+        image: 'assets/img/guarana.png',
         description:
           'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
         category: 5,
       },
       {
         id: 1,
-        title: 'Mojito',
+        title: 'Heineken',
+        price: 18,
+        image: 'assets/img/heineken.png',
+        description:
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+        category: 5,
+      },
+      {
+        id: 1,
+        title: 'Whisky',
         price: 20,
-        image: 'assets/img/mojito-bebida.jpg',
+        image: 'assets/img/whisky.png',
         description:
           'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
         category: 5,

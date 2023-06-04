@@ -1,4 +1,4 @@
-<ion-header style="margin-bottom: 1rem;">
+<ion-header style="margin-bottom: 1rem">
   <ion-toolbar color="danger">
     <ion-title>{{category}}</ion-title>
   </ion-toolbar>
@@ -6,26 +6,27 @@
 
 <ion-content [fullscreen]="true" color="warning">
   <div class="categoria-item">
-  <app-food-card 
-    *ngFor="let product of products"
-    [item]="product"
-    (click)="selectProduct(product)"
-
-  ></app-food-card>
-</div>
+    <app-food-card
+      *ngFor="let product of products"
+      [item]="product"
+      (click)="selectProduct(product)"
+    ></app-food-card>
+  </div>
   <ion-modal [isOpen]="isModalOpen">
     <ng-template>
       <ion-header>
-        <ion-toolbar>
+        <ion-toolbar color="danger">
           <ion-title>Detalhes</ion-title>
           <ion-buttons slot="end">
             <ion-button (click)="isModalOpen = false">Voltar</ion-button>
           </ion-buttons>
         </ion-toolbar>
       </ion-header>
-      <ion-content class="ion-padding">
+      <ion-content class="ion-padding" color="warning">
         <ion-img [src]="selectedProduct.image"></ion-img>
-        <p>{{ selectedProduct.title }}</p>
+        <p style="font-size: 2rem; font-weight: bold; color: white">
+          {{ selectedProduct.title }}
+        </p>
         <p>{{ selectedProduct.description }}</p>
         <p>R$ {{ selectedProduct.price | number: '1.2' }}</p>
       </ion-content>

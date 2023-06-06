@@ -9,102 +9,93 @@ export class ProductService {
     return [
       {
         id: 1,
-        title: 'X-burguer',
-        price: 26.99,
-        image: 'assets/img/x-burguer.png',
-        description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
-        category: 1,
-      },
-      {
-        id: 1,
-        title: 'Churrasquinho de frango',
-        price: 17.99,
-        image: 'assets/img/churrasquinho-lanche.png',
-        description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
-        category: 1,
-      },
-      {
-        id: 1,
-        title: 'Sanduiche de picanha',
-        price: 28.99,
-        image: 'assets/img/sanduiche-lanche.png',
-        description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
-        category: 1,
-      },
-      {
-        id: 1,
-        title: 'Cheeseburguer clássico',
-        price: 28.99,
-        image: 'assets/img/cheeseburguer.png',
-        description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
-        category: 1,
-      },
-      {
-        id: 1,
-        title: 'Hot dog',
-        price: 20,
-        image: 'assets/img/hot-dog.png',
-        description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
-        category: 1,
-      },
-      {
-        id: 1,
-        title: 'Coxinhas de frango',
-        price: 19.99,
+        title: 'Coxinhas',
+        price: 6.99,
         image: 'assets/img/coxinhas.png',
         description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
-        category: 2,
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
+        category: 1,
       },
       {
         id: 1,
-        title: 'Bolinho de bacalhau',
-        price: 15.99,
-        image: 'assets/img/bolinho.png',
+        title: 'Pastel',
+        price: 7.99,
+        image: 'assets/img/pastel.png',
         description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
-        category: 2,
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
+        category: 1,
       },
       {
         id: 1,
-        title: 'Linguiça assada',
-        price: 22.99,
-        image: 'assets/img/linguica-assada.png',
+        title: 'Tapioca',
+        price: 8.99,
+        image: 'assets/img/tapioca.png',
         description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
+        category: 1,
+      },
+      {
+        id: 1,
+        title: 'Enrroladinho',
+        price: 4.99,
+        image: 'assets/img/enrroladinho.png',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
+        category: 1,
+      },
+      {
+        id: 1,
+        title: 'X-Tudo',
+        price: 18,
+        image: 'assets/img/xtudo.png',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
+        category: 1,
+      },
+      {
+        id: 1,
+        title: 'Strogonoff',
+        price: 29.99,
+        image: 'assets/img/strogonoff.png',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
         category: 2,
       },
       {
         id: 1,
-        title: 'Dadinho de tapioca',
+        title: 'Batata Frita',
+        price: 15,
+        image: 'assets/img/batatafrita.png',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
+        category: 2,
+      },
+      {
+        id: 1,
+        title: 'Peixe com Molho',
+        price: 29.99,
+        image: 'assets/img/peixecommolho.png',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
+        category: 2,
+      },
+      {
+        id: 1,
+        title: 'Camarão',
         price: 14.99,
-        image: 'assets/img/dadinho.png',
+        image: 'assets/img/camaraopetisco.png',
         description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
         category: 2,
       },
       {
         id: 1,
-        title: 'Torresmo crocante',
+        title: 'Espetinho de Frutas',
         price: 12.99,
-        image: 'assets/img/torresmo.png',
+        image: 'assets/img/espetinho.png',
         description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
         category: 2,
-      },
-      {
-        id: 1,
-        title: 'Picanha assada',
-        price: 35.99,
-        image: 'assets/img/picanha.png',
-        description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
-        category: 3,
       },
       {
         id: 1,
@@ -112,16 +103,7 @@ export class ProductService {
         price: 40,
         image: 'assets/img/frango-parmegiana.png',
         description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
-        category: 3,
-      },
-      {
-        id: 1,
-        title: 'Costelinha de porco',
-        price: 38.99,
-        image: 'assets/img/costelinha.png',
-        description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
         category: 3,
       },
       {
@@ -130,16 +112,34 @@ export class ProductService {
         price: 30,
         image: 'assets/img/peixe.png',
         description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
         category: 3,
       },
       {
         id: 1,
-        title: 'Feijoada completa',
-        price: 50,
-        image: 'assets/img/feijoada.png',
+        title: 'Costelinha de porco',
+        price: 38.99,
+        image: 'assets/img/costelinha.png',
         description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
+        category: 3,
+      },
+      {
+        id: 1,
+        title: 'Picanha assada',
+        price: 35.99,
+        image: 'assets/img/picanha.png',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
+        category: 3,
+      },
+      {
+        id: 1,
+        title: 'Marmitex Pronta',
+        price: 40,
+        image: 'assets/img/marmitex.png',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
         category: 3,
       },
       {
@@ -148,7 +148,7 @@ export class ProductService {
         price: 9.99,
         image: 'assets/img/chocolate.png',
         description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
         category: 4,
       },
       {
@@ -157,7 +157,7 @@ export class ProductService {
         price: 29.99,
         image: 'assets/img/saladafrutas.png',
         description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
         category: 4,
       },
       {
@@ -166,7 +166,7 @@ export class ProductService {
         price: 20,
         image: 'assets/img/sorvete.png',
         description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
         category: 4,
       },
       {
@@ -175,7 +175,7 @@ export class ProductService {
         price: 12,
         image: 'assets/img/bolo.png',
         description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
         category: 4,
       },
       {
@@ -184,7 +184,7 @@ export class ProductService {
         price: 10,
         image: 'assets/img/cupcake.png',
         description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
         category: 4,
       },
       {
@@ -193,7 +193,7 @@ export class ProductService {
         price: 15,
         image: 'assets/img/heineken.png',
         description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
         category: 5,
       },
       {
@@ -202,7 +202,7 @@ export class ProductService {
         price: 70,
         image: 'assets/img/whiskyvelho.png',
         description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
         category: 5,
       },
       {
@@ -211,7 +211,7 @@ export class ProductService {
         price: 20,
         image: 'assets/img/coquitel.png',
         description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
         category: 5,
       },
       {
@@ -220,7 +220,7 @@ export class ProductService {
         price: 60,
         image: 'assets/img/vinho.png',
         description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
         category: 5,
       },
       {
@@ -229,7 +229,7 @@ export class ProductService {
         price: 80,
         image: 'assets/img/champagne.png',
         description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
         category: 5,
       },
     ];

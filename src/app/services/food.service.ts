@@ -12,7 +12,7 @@ export class FoodService {
         title: 'Prato do dia',
         price: 49.99,
         image: 'assets/img/pratodia.png',
-        description: 'Aqui vai a descrição do do produto.',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra urna quis arcu porttitor, interdum imperdiet metus consectetur. Praesent imperdiet justo et accumsan ornare. Sed tristique, metus quis iaculis hendrerit, purus tellus imperdiet orci, luctus ullamcorper lectus ipsum vel odio.',
       },
     ];
   }

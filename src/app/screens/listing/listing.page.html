@@ -1,21 +1,8 @@
-<ion-content style="padding-right: 0 !important" color="warning">
+<ion-content style="padding-right: 0 !important" color="">
   <!-- header -->
   <div class="header">
-    <h1>CHURRAS DELIVERY</h1>
+    <h1>RESTAURANTE REAL</h1>
   </div>
-
-  <!-- Category -->
-  <h2 style="text-align: center; margin-bottom: 1.5rem">Categorias</h2>
-  <div class="categories">
-    <app-category-item
-      *ngFor="let categoria of categories"
-      [item]="categoria"
-      (clicked)="goToCategoriaPage(categoria.id)"
-    ></app-category-item>
-  </div>
-
-  <!-- Searchbar -->
-  <app-searchbar></app-searchbar>
 
   <!-- Prato do dia -->
   <h1 class="list-header" color="danger">Promoção</h1>
@@ -27,9 +14,22 @@
     ></app-food-card>
   </div>
 
+  <!-- Searchbar -->
+  <app-searchbar></app-searchbar>
+
+  <!-- Category -->
+  <h2 style="text-align: center; margin-bottom: 1.5rem">Categorias</h2>
+  <div class="categories">
+    <app-category-item
+      *ngFor="let categoria of categories"
+      [item]="categoria"
+      (clicked)="goToCategoriaPage(categoria.id)"
+    ></app-category-item>
+  </div>
+
   <ion-modal #modal trigger="open-modal">
     <ng-template>
-      <ion-content color="warning">
+      <ion-content color="">
         <ion-toolbar color="danger">
           <ion-title>Detalhes da prato do dia</ion-title>
           <ion-buttons slot="end">
@@ -69,8 +69,8 @@
           </ion-item>
           <ion-item color="danger">
             <ion-label>
-              <h2>Valor promocional</h2>
-              <p>R$ 80,00</p>
+              <h2>Valor</h2>
+              <p>R$ 49.99</p>
             </ion-label>
           </ion-item>
         </ion-list>

@@ -144,71 +144,53 @@ export class ProductService {
       },
       {
         id: 1,
-        title: 'Pudim de leite',
-        price: 25.99,
-        image: 'assets/img/pudim.png',
+        title: 'Chocolate',
+        price: 9.99,
+        image: 'assets/img/chocolate.png',
         description:
           'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
         category: 4,
       },
       {
         id: 1,
-        title: 'Musse de chocolate',
-        price: 12.99,
-        image: 'assets/img/musse.png',
+        title: 'Salada de Frutas',
+        price: 29.99,
+        image: 'assets/img/saladafrutas.png',
         description:
           'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
         category: 4,
       },
       {
         id: 1,
-        title: 'Torta de limão',
+        title: 'Sovete',
         price: 20,
-        image: 'assets/img/torta.png',
+        image: 'assets/img/sorvete.png',
         description:
           'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
         category: 4,
       },
       {
         id: 1,
-        title: 'Petir gateau',
-        price: 25,
-        image: 'assets/img/peti.png',
+        title: 'Fatia de bolo',
+        price: 12,
+        image: 'assets/img/bolo.png',
         description:
           'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
         category: 4,
       },
       {
         id: 1,
-        title: 'Brigadeiro',
-        price: 15,
-        image: 'assets/img/brigadeiro.png',
-        description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
-        category: 4,
-      },
-      {
-        id: 1,
-        title: 'Shoop pilsen',
-        price: 18,
-        image: 'assets/img/shoop.jpg',
-        description:
-          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
-        category: 5,
-      },
-      {
-        id: 1,
-        title: 'Guarana',
+        title: 'Cupcake',
         price: 10,
-        image: 'assets/img/guarana.png',
+        image: 'assets/img/cupcake.png',
         description:
           'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
-        category: 5,
+        category: 4,
       },
       {
         id: 1,
         title: 'Heineken',
-        price: 18,
+        price: 15,
         image: 'assets/img/heineken.png',
         description:
           'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
@@ -216,18 +198,36 @@ export class ProductService {
       },
       {
         id: 1,
-        title: 'Whisky',
-        price: 20,
-        image: 'assets/img/whisky.png',
+        title: 'Whisky Envelhecido',
+        price: 70,
+        image: 'assets/img/whiskyvelho.png',
         description:
           'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
         category: 5,
       },
       {
         id: 1,
-        title: 'Suco de laranja',
-        price: 10,
-        image: 'assets/img/suco.jpg',
+        title: 'Coquetel Artesanal',
+        price: 20,
+        image: 'assets/img/coquitel.png',
+        description:
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+        category: 5,
+      },
+      {
+        id: 1,
+        title: 'Vinho Tinto',
+        price: 60,
+        image: 'assets/img/vinho.png',
+        description:
+          'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
+        category: 5,
+      },
+      {
+        id: 1,
+        title: 'Champagne',
+        price: 80,
+        image: 'assets/img/champagne.png',
         description:
           'Aqui vai uma descrição do produto. Aqui vai uma descrição do produto.',
         category: 5,

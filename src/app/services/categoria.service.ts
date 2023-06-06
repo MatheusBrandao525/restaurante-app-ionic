@@ -16,7 +16,7 @@ export class CategoriaService {
       {
         id: 2,
         label: 'Entradas',
-        image: 'assets/img/petisco.png',
+        image: 'assets/img/entrada.png',
         active: false,
       },
       {
@@ -34,7 +34,7 @@ export class CategoriaService {
       {
         id: 5,
         label: 'Bebidas',
-        image: 'assets/img/bebida.png',
+        image: 'assets/img/bebidas.png',
         active: false,
       },
     ];

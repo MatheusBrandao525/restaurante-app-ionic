@@ -10,8 +10,8 @@ export class FoodService {
       {
         id: 1,
         title: 'Prato do dia',
-        price: 80.0,
-        image: 'assets/img/picanha-chapa-refeicao.png',
+        price: 49.99,
+        image: 'assets/img/pratodia.png',
         description: 'Aqui vai a descrição do do produto.',
       },
     ];
